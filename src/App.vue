@@ -4,17 +4,19 @@
   </header>
 
   <main>
-    <h1>Hello Again</h1>
+    <TotalBalance />
   </main>
 </template>
 
 
 <script>
 import HeaderBar from './components/HeaderBar.vue';
+import TotalBalance from './components/TotalBalance.vue'
 
 export default {
   components: {
-    HeaderBar
+    HeaderBar,
+    TotalBalance
   }
 }
 </script>
