@@ -4,17 +4,25 @@
   </header>
 
   <main>
-    <h1>Hello Again</h1>
+    <TotalBalance />
+    <IncomeExpense />
+    <TransactionList />
   </main>
 </template>
 
 
 <script>
 import HeaderBar from './components/HeaderBar.vue';
+import TotalBalance from './components/TotalBalance.vue'
+import IncomeExpense from './components/IncomeExpense.vue';
+import TransactionList from './components/TransactionList.vue';
 
 export default {
   components: {
-    HeaderBar
+    HeaderBar,
+    TotalBalance,
+    IncomeExpense,
+    TransactionList
   }
 }
 </script>
