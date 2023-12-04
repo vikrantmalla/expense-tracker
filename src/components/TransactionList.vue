@@ -6,7 +6,7 @@
             <button class="delete-btn"> x </button>
         </li>
         <li class="plus">
-            Paycheck <span>-$400</span>
+            Paycheck <span>$400</span>
             <button class="delete-btn"> x </button>
         </li>
     </ul>
